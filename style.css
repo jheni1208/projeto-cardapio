@@ -1,4 +1,46 @@
-header{
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+    header{
     display: flex;
     align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(148, 221, 197);
+    width: 100%;
+    height: 200px;
+}
+H1{
+    font-size: 6em;
+    height: 170px;
+    color: white;
+    text-align: center;
+}
+footer{
+    height:120px ;
+    color: azure;
+    width: 100%;
+    background-color:rgb(148, 221, 197) ;
+    text-align:center;
+    font-size: 2em;
+}
+section figure img{
+    width: 200px;
+    height: 200px;
+}
+h2,h3{
+    text-align: center;
+}
+.refeicao{
+    display: flex;
+}
+main{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+form{
+    display: flex;
+    
 }
